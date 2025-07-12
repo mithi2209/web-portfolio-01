@@ -262,3 +262,92 @@ main{
     font-weight: 400;
     line-height: 28px; 
 }
+
+/* resume section styles */
+
+.resume-title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 130px;
+}
+.resume-container{
+    display: flex;
+    align-items: center;
+    margin-top: 113px;
+    /* margin-bottom: 113px; */
+   justify-content: space-between;
+   gap: 30px;
+}
+.education-column{
+    width: 50%;
+}
+.experience-column{
+    width: 50%;
+}
+.left-column-title{
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.right-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.first-part-title{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+   margin-top: 30px;
+
+}
+.first-part-subtitle{
+    color:  #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+   
+}
+.first-part-des{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.second-part-title{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.second-part-subtitle{
+    color:  #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.second-part-des{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.resume-btn{
+   margin: 30px 500px 130px 500px;
+}
