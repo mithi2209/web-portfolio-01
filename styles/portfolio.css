@@ -42,6 +42,7 @@ header{
     background-position-y: center , bottom;
     
     
+    
 }
 
 
@@ -351,3 +352,74 @@ main{
 .resume-btn{
    margin: 30px 500px 130px 500px;
 }
+/* footer styles */
+footer{
+    background: #FFF8F3;
+    padding: 100px 230px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.footer-contents{
+    padding-bottom: 200px;
+}
+.footer-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-des{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+.icon-container{
+    align-items: center;
+    font-size: 30px;
+    margin-top: 10px;
+    
+
+}
+
+.icon-container a{
+    text-decoration: none;
+    color: #FD6E0A;
+}
+
+.footer-form{
+    margin-top: 130px;
+}
+
+.form-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.footer-form input {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.footer-form input[type = "text"] , .footer-form input[type="email"] , .footer-form textarea{
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    padding: 18px 30px;
+    width: 100%;
+    /* gap: 25px; */
+
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+
